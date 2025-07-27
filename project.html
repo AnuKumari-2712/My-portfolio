@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anu - Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color:rgb(12, 12, 39);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(15, 15, 29);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color:darkcyan;
+    }
+    nav ul li a:hover{
+      color:blueviolet;
+      font-size:1.04 rem;
+    }
+    main hr{
+      border:0;
+      background:#9c97f1;
+      height:1.2px;
+      margin:40px 84px;
+    }
+
+    .left {
+      font-size: 1.5rem;
+    }
+
+    .firstSection {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin:140px 0;
+
+    }
+    .firstSection>div{
+        width: 30%;
+        font-family:'Times New Roman', Times, serif ;
+    }
+
+    .leftSection {
+      font-size: 3rem;
+    }
+
+    .purple {
+      color:slateblue;
+      font-size: 5rem;
+    }
+    .rightSection img {
+      width: 80%;
+      
+    }
+    .text-gray{
+      color:gray;
+    }
+    #element{
+      color:slateblue;
+    }
+    .secondSection{
+      max-width:80vw;
+      margin:auto;
+      height:80vh;
+    }
+    .secondSection h1{
+      font-size:1.9 rem;
+    }
+    .secondSection .box{
+      background: white;
+      width:80vw;
+      height:2px;
+      margin:56px 0;
+      display:flex;
+    }
+    .secondSection .vertical{
+      height:93px;
+      width:1px;
+      background-color: white;
+      margin:0 100px;
+
+    }
+    .contactSection {
+  color: white;
+  text-align: center;
+  margin: 60px auto;
+  max-width: 600px;
+  padding: 20px;
+  border-top: 2px solid slateblue;
+}
+
+.contactSection h1 {
+  color: slateblue;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+    .image-top{
+      width:23px;
+      position:relative;
+      top:-32px;
+      left:-9px;
+    }
+    .vertical-title{
+      position:relative;
+      top:75px;
+      width:150px;
+
+    }
+    .vertical-desc{
+      position:relative;
+      color: grey;
+      width:150px;
+      top:86px;
+      font-size: 9px;
+
+
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">Anu's Portfolio</div>
+      <div class="right"></div>
+      <ul>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+        </ul>
+
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, My name is <span class="purple">Anu</span>
+        <div>and I am a passionate</div>
+        
+        <span id="element"></span>
+      </div>
+      <div class="rightSection">
+        <img src="11.webp" alt="Developer Photo" />
+      </div>
+    </section>
+<hr>
+    <section class="secondSection">
+      <span class="text-gray">What I have done so far</span>
+      <h1>Work Experience</h1>
+      <div class="box">
+        <div class="vertical">
+  <img class="image-top" src="11.webp" alt="project icon">
+  <div class="vertical-title">
+    Frontend Web Developer (2025)
+  </div>
+  <div class="vertical-desc">
+    Created responsive user interfaces using HTML, CSS, and JavaScript. Designed a personal portfolio and multiple component-based layouts with clean animations and interactive effects.
+  </div>
+</div>
+
+<div class="vertical">
+  <img class="image-top" src="11.webp" alt="backend icon">
+  <div class="vertical-title">
+    Backend Developer - Node.js (2025)
+  </div>
+  <div class="vertical-desc">
+    Developed RESTful APIs using Node.js and Express. Implemented user authentication, routing, and integrated MongoDB for dynamic data handling in personal projects.
+  </div>
+</div>
+
+<div class="vertical">
+  <img class="image-top" src="11.webp" alt="cpp icon">
+  <div class="vertical-title">
+    C++ Programmer & DSA Enthusiast (2024)
+  </div>
+  <div class="vertical-desc">
+    Solved 200+ data structure and algorithm problems on platforms like LeetCode. Covered recursion, arrays, linked lists, trees, sorting, and graph-based challenges using C++.
+  </div>
+</div>
+
+<div class="vertical">
+  <img class="image-top" src="11.webp" alt="project icon">
+  <div class="vertical-title">
+    Personal Project: Task Manager Web App
+  </div>
+  <div class="vertical-desc">
+    Built a fully functional to-do list app using JavaScript and localStorage. Features include task creation, editing, deletion, and persistent state across sessions.
+  </div>
+</div>
+
+<div class="vertical">
+  <img class="image-top" src="11.webp" alt="collab icon">
+  <div class="vertical-title">
+    Team Project: CodeCollab Platform
+  </div>
+  <div class="vertical-desc">
+    Collaborated with peers to create a real-time collaborative code editor using HTML, CSS, and JS. Designed UI and contributed to frontend logic and socket-based communication.
+  </div>
+</div>
+<div class="vertical">
+  <img class="image-top" src="11.webp" alt="insta icon">
+  <div class="vertical-title">
+    Insta Video Creator (2025)
+  </div>
+  <div class="vertical-desc">
+    Designed and edited Instagram reels using CapCut and InShot. Created trending content with text animations, audio sync, and aesthetic transitions. Grew personal page reach through storytelling and editing creativity.
+  </div>
+</div>
+
+
+        </div>
+        
+      
+
+
+    </section>
+   <section class="contactSection">
+  <h1>Contact Me</h1>
+  <p>You can reach me at:</p>
+  <p><strong>Phone:</strong> +91 9835977402</p>
+  <p><strong>Email:</strong> <a href="mailto:kanu88559@gmail.com" style="color:cyan;">kanu88559@gmail.com</a></p>
+</section>
+
+  </main>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Coder'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
